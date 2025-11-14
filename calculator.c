@@ -3,9 +3,9 @@ int main()
 {
     int x, y;
     char op;
-    printf("Choose the required operator: (+,-,*,/) \n");
+    printf("Choose the required operator (+,-,*,/) \n");
     scanf("%c", &op);
-    printf("Enter any two numbers: \n");
+    printf("Enter any two numbers: ");
     scanf("%d %d", &x, &y);
 
     switch (op) {
